@@ -1,7 +1,7 @@
 {
-  "name": "callback-queue",
+  "name": "queue-callbacks",
   "version": "1.0.0",
-  "description": "",
+  "description": "Execute callbacks in sequence.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"

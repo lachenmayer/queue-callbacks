@@ -24,6 +24,7 @@ test('sync', t => {
 })
 
 test('async', t => {
+  // Simulates database access over a network connection.
   let val = 0
   function get(cb) {
     delay(Math.random() * 100)(() => {

@@ -45,7 +45,7 @@ once the corresponding job has finished.
 
 ```typescript
 queue = new Queue()
-queue.push(job: (done: Callback) => any, callback?: Callback))
+queue.push(job: (done: Callback) => any, callback?: Callback)
 
 // all callbacks should be Node-style callbacks.
 type Callback = (err: Error, val: any) => any

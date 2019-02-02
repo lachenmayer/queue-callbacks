@@ -1,5 +1,7 @@
 # queue-callbacks
 
+[![Build Status](https://travis-ci.com/lachenmayer/queue-callbacks.svg?branch=master)](https://travis-ci.com/lachenmayer/queue-callbacks)
+
 Execute callbacks in sequence.
 
 Useful if you are accessing some shared state (eg. a database), and want to make sure
